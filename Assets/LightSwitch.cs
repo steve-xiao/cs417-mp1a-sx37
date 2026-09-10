@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class LightSwitch : MonoBehaviour
 {
     public InputActionReference action;
+    public FeedbackGroup feedback;
 
     private Light lightComponent;
 
@@ -13,12 +14,31 @@ public class LightSwitch : MonoBehaviour
 
         action.action.Enable();
 
-        action.action.performed += (ctx) =>
+        action.action.performed += OnLightSwitch;
+    }
+
+    void OnDestroy()
+    {
+        if (action != null && action.action != null)
         {
-            if (lightComponent.color == Color.white)
-                lightComponent.color = Color.red;
-            else
-                lightComponent.color = Color.white;
-        };
+            action.action.performed -= OnLightSwitch;
+        }
+    }
+
+    private void OnLightSwitch(InputAction.CallbackContext ctx)
+    {
+        if (lightComponent.color == Color.white)
+        {
+            lightComponent.color = Color.red;
+        }
+        else
+        {
+            lightComponent.color = Color.white;
+        }
+
+        if (feedback != null)
+        {
+            feedback.PlayFeedback();
+        }
     }
 }
