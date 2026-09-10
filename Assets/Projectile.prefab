@@ -126,4 +126,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileMovement
   velocity: {x: 0, y: 0, z: 0}
-  lifetime: 30
+  lifetime: 120
