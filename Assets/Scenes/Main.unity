@@ -257,7 +257,7 @@ Transform:
   m_GameObject: {fileID: 329349355}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -276,15 +276,15 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ca332e7f189943443916eb387ca19ce5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.55
+  m_Pitch: 1.1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -505,7 +505,7 @@ Transform:
   m_GameObject: {fileID: 359846795}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalPosition: {x: -0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -522,7 +522,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 1a66b4f61dbd2d24bb80e4835ea75061, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4595d83a7c8ca364fbb7a8871d5b12b4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -532,7 +532,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -634,7 +634,7 @@ Transform:
   m_GameObject: {fileID: 454646820}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -651,7 +651,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 1a66b4f61dbd2d24bb80e4835ea75061, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4595d83a7c8ca364fbb7a8871d5b12b4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -661,7 +661,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -933,7 +933,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.45
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -986,7 +986,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 2.4
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1040,7 +1040,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1104,7 +1104,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.15
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1568,7 +1568,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.1
       mode: 0
       spread: 0
       speed:
@@ -1797,7 +1797,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 20
+        scalar: 22
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -5848,7 +5848,7 @@ Transform:
   m_GameObject: {fileID: 615917103}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5865,7 +5865,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 1a66b4f61dbd2d24bb80e4835ea75061, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4595d83a7c8ca364fbb7a8871d5b12b4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5875,7 +5875,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -6008,28 +6008,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "XR TRACKED CAMERA \u2014 physical head movement controls camera position/view\r\nWORLD
-    SPACE \u2014 Instructions Canvas stays fixed in the 3D world\r\nOBJECT SPACE
-    \u2014 Moon is child of Planet; transforms move together\r\nMATERIALS \u2014
-    custom materials applied throughout scene\r\nHIGHLIGHT OUTLINE \u2014 Planet
-    uses custom outline vertex shader\r\nOBJECT CONTENT \u2014 16+ decorative object
-    assets in room\r\nMATERIAL CONTENT \u2014 8+ distinct materials applied to distinct
-    objects\r\nCUSTOM ROOM GEOMETRY \u2014 sloped/gabled roof created in Blender
-    and imported into Unity\n\r\nEULER STEADY \u2014 Moon movement uses Time.deltaTime;
-    frame-rate independent\r\nKINEMATIC DOUBLE INTEGRATOR \u2014 acceleration updates
-    velocity; velocity updates position every frame\r\nARBITRARY ORBITER \u2014 comet
-    acceleration pulls toward Planet\u2019s world position\r\nXR CONTROLLER INPUTS
-    \u2014 controller buttons mapped to scripts using Input Actions\n\r\nRAINBOW
-    LIGHTING \u2014 controller button changes Point Light color\r\nOBJECT SPAWNING
-    \u2014 right trigger instantiates projectile prefab\r\nOBJECT SHOOTER \u2014
-    projectile has internal velocity initialized from controller direction\r\nPARTICLE
-    BURSTS \u2014 projectile spawn creates particle burst at same location\r\nSPATIAL
-    SOUND \u2014 projectile spawn creates spatialized 3D sound at same location\r\nPERFECT
-    ORBITS \u2014 radial velocity removed; stable speed = sqrt(gravity / distance)\r\nCAMERA
-    TELEPORT \u2014 controller button teleports XR player/camera to external viewpoint\n\r\nSKYBOX
-    MATERIAL \u2014 custom non-default skybox visible outside\r\nRETURN \u2014 same
-    teleport button returns player to room\r\nQUIT KEY \u2014 controller input exits
-    application; DO LAST \u2192 Quit"
+  m_text: "XR TRACKED CAMERA \u2014 headset movement controls camera position and
+    view\r\nWORLD SPACE \u2014 Instructions Canvas stays fixed in the 3D world\r\nOBJECT
+    SPACE \u2014 Moon is child of Planet and moves with it\r\nMATERIALS \u2014 custom
+    materials used throughout the scene\r\nHIGHLIGHT OUTLINE \u2014 Planet uses custom
+    outline vertex shader\r\nOBJECT CONTENT \u2014 16+ decorative objects in the
+    room\r\nMATERIAL CONTENT \u2014 13 distinct materials on distinct objects\r\n\r\nEULER
+    STEADY \u2014 Moon movement uses Time.deltaTime\r\nKINEMATIC DOUBLE INTEGRATOR
+    \u2014 acceleration updates velocity, velocity updates position\r\nARBITRARY
+    ORBITER \u2014 comet is pulled toward Planet\u2019s world position\r\n\r\nXR
+    CONTROLLER INPUTS \u2014 controller buttons trigger scripts\r\nRAINBOW LIGHTING
+    \u2014 Left Primary changes Point Light color\r\nOBJECT SPAWNING \u2014 Right
+    Trigger spawns projectile\r\nOBJECT SHOOTER \u2014 spawned projectile uses controller-directed
+    velocity\r\nPERFECT ORBITS \u2014 orbital speed = sqrt(gravity / distance)\r\n\r\nPARTICLE
+    BURSTS \u2014 shooting creates particles at projectile spawn\r\nPARTICLE FEEDBACK
+    CONTENT \u2014 16 emitters across Shoot, Light, Break Out, Return\r\nSPATIAL
+    SOUND \u2014 shooting creates 3D sound at projectile spawn\r\nSPATIAL SOUND CONTENT
+    \u2014 16 spatial AudioSources across 4 feedback groups\r\n\r\nCAMERA TELEPORT
+    \u2014 Left Trigger moves player outside\r\nSKYBOX MATERIAL \u2014 custom skybox
+    visible outside\r\nRETURN \u2014 Left Trigger again returns player to room\r\nQUIT
+    KEY \u2014 Right Grip exits application; DO LAST"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6135,7 +6133,7 @@ Transform:
   m_GameObject: {fileID: 785804043}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6154,15 +6152,15 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 98741e295ec60264bb41abcf50cb6e4d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.65
+  m_Pitch: 0.98
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -6264,7 +6262,7 @@ Transform:
   m_GameObject: {fileID: 821159583}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 13, z: 0}
+  m_LocalPosition: {x: 0, y: 14.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6326,7 +6324,7 @@ Transform:
   m_GameObject: {fileID: 862323259}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalPosition: {x: -0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6345,15 +6343,15 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 98741e295ec60264bb41abcf50cb6e4d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.65
+  m_Pitch: 0.94
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -6707,7 +6705,7 @@ Transform:
   m_GameObject: {fileID: 1047726608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6726,15 +6724,15 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 98741e295ec60264bb41abcf50cb6e4d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.65
+  m_Pitch: 1.02
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -6996,7 +6994,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -7113,7 +7111,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.5411765, b: 0.14117648, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -7177,7 +7175,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.15
+      scalar: 0.12
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -7641,7 +7639,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -7870,7 +7868,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 20
+        scalar: 22
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -11843,7 +11841,7 @@ Transform:
   m_GameObject: {fileID: 1140412328}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11860,7 +11858,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 1a66b4f61dbd2d24bb80e4835ea75061, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4595d83a7c8ca364fbb7a8871d5b12b4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -11870,7 +11868,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -11972,7 +11970,7 @@ Transform:
   m_GameObject: {fileID: 1142270941}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11991,7 +11989,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ca332e7f189943443916eb387ca19ce5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.55
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11999,7 +11997,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -12101,7 +12099,7 @@ Transform:
   m_GameObject: {fileID: 1185142711}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12120,15 +12118,15 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 98741e295ec60264bb41abcf50cb6e4d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.65
+  m_Pitch: 1.06
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -12390,7 +12388,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -12400,7 +12398,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.4
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -12453,7 +12451,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -12507,7 +12505,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.84705883, b: 0.23921569, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -12571,7 +12569,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.15
+      scalar: 0.14
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -12888,7 +12886,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -12948,7 +12946,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -13035,7 +13033,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -17771,7 +17769,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0, b: 1, a: 1}
+      maxColor: {r: 0.30980393, g: 0.49019608, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -18212,7 +18210,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -18299,7 +18297,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.2
       mode: 0
       spread: 0
       speed:
@@ -22558,7 +22556,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.75
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -22611,7 +22609,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -22665,7 +22663,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+      maxColor: {r: 0.19607843, g: 0.9019608, b: 0.76862746, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -22729,7 +22727,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.15
+      scalar: 0.18
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -23106,7 +23104,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -23193,7 +23191,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -23422,7 +23420,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 20
+        scalar: 16
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -27671,7 +27669,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.23529412, b: 0.6745098, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -28113,7 +28111,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 25
+    angle: 35
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -28199,7 +28197,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -32647,7 +32645,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -32764,7 +32762,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0, b: 1, a: 1}
+      maxColor: {r: 0.65882355, g: 0.33333334, b: 0.96862745, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -33145,7 +33143,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -33205,7 +33203,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -33292,7 +33290,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.2
       mode: 0
       spread: 0
       speed:
@@ -37664,7 +37662,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.6
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -37771,7 +37769,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.25882354, g: 0.9098039, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -38212,7 +38210,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -38299,7 +38297,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -38528,7 +38526,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 20
+        scalar: 16
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -42558,7 +42556,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.65
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -42665,7 +42663,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+      maxColor: {r: 0.7254902, g: 1, b: 0.32156864, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -42729,7 +42727,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.15
+      scalar: 0.12
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -43193,7 +43191,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.1
       mode: 0
       spread: 0
       speed:
@@ -43422,7 +43420,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 20
+        scalar: 18
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -47716,7 +47714,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.55
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -47769,7 +47767,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1.8
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -47823,7 +47821,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+      maxColor: {r: 0.32156864, g: 0.9019608, b: 0.41960785, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -48264,7 +48262,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -48351,7 +48349,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -52547,7 +52545,7 @@ Transform:
   m_GameObject: {fileID: 1654406306}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.02991, y: -0, z: 6.81044}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53036,7 +53034,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 2.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -53154,7 +53152,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.15
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -53618,7 +53616,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -53847,7 +53845,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 20
+        scalar: 25
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -57984,7 +57982,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0, b: 1, a: 1}
+      maxColor: {r: 0.23921569, g: 0.92156863, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -58512,7 +58510,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.15
       mode: 0
       spread: 0
       speed:
@@ -62743,7 +62741,7 @@ Transform:
   m_GameObject: {fileID: 1886441752}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalPosition: {x: -0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62762,15 +62760,15 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ca332e7f189943443916eb387ca19ce5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.55
+  m_Pitch: 0.95
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -62872,7 +62870,7 @@ Transform:
   m_GameObject: {fileID: 1966692210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62891,15 +62889,15 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ca332e7f189943443916eb387ca19ce5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.55
+  m_Pitch: 1.05
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.5
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
